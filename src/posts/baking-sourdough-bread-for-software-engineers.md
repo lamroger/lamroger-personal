@@ -22,6 +22,6 @@ Videos:
 3. [Patrick Ryan's Masterclass](https://youtu.be/2FVfJTGpXnU)
 
 Articles:
-1. [Beginner Sourdough Bread by theperfectloaf](https://www.theperfectloaf.com/beginners-sourdough-bread/)
+1. [Beginner Sourdough Bread by The Perfect Loaf](https://www.theperfectloaf.com/beginners-sourdough-bread/)
 2. [Tartine Country Bread Recipe](https://www.marthastewart.com/1130184/tartine-country-bread)
 3. [King Arthur Flour (KAF) Sourdough Recipe](https://www.kingarthurflour.com/recipes/naturally-leavened-sourdough-bread-recipe)
