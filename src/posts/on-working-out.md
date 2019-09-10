@@ -1,11 +1,16 @@
 ---
-title: A simple post
-date: '2019-06-18'
+title: On working out
+date: '2022-06-18'
 tags:
   - demo-content
   - simple-post
   - blog
 ---
+
+This post is scheduled for the future, specifically mid-2022. Hopefully you're still blogging by then too. Once that date ticks by, this post will automatically become published and visible.
+
+Otherwise, below is some styled content for you to play with.
+
 A simple post to demonstrate how a normal blog post looks on Hylia. Content is all set in the “Body” field as markdown and Eleventy transforms it into a proper HTML post. You can also edit the markdown file directly if you prefer not to use the CMS.
 
 How about a `<blockquote>`?
@@ -16,7 +21,7 @@ A list of stuff:
 
 - Sed posuere consectetur est at lobortis
 - Aenean lacinia bibendum nulla sed consectetur
-- Sed posuere consectetur est at lobortis
+- Sed posuere consectetur est at 
 
 How about an ordered list of stuff:
 
