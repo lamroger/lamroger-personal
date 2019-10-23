@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Software Developer. Inaccurate website description.
+title: Welcome!
 postsHeading: Latest posts
 archiveButtonText: See all posts
 socialImage: ''
