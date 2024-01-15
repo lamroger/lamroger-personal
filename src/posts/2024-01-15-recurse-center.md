@@ -29,7 +29,7 @@ My first topic was the Transformer architecture. Given how much it revolutionize
 
 I spent a lot more time than I estimated to clearly understand and then communicate the ideas behind the architecture. I thought it’d take 1 - 2 days. It took me closer to 5-7 days. It’s good to estimate beforehand, benchmark, and adjust your future estimates - much like day-to-day work at a job.
 
-I shared it to LinkedIn and it got good reach and reception. It’s good to be in the zeitgeist if you don’t already have a lot of followers / distribution. Twitter was more like tweeting into the void.
+I shared it to [LinkedIn](https://www.linkedin.com/posts/lam-roger_transformers-explained-really-activity-7149947772060770305-xCdN?utm_source=share&utm_medium=member_desktop) and it got good reach and reception. It’s good to be in the zeitgeist if you don’t already have a lot of followers / distribution. Twitter was more like tweeting into the void.
 
 ### Next
 

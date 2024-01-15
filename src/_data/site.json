@@ -1,7 +1,7 @@
 {
-  "showThemeCredit": true,
+  "showThemeCredit": false,
   "name": "Roger Lam",
-  "shortDesc": "My corner of the web.",
+  "shortDesc": "Software, math, and everything in between.",
   "url": "https://lamroger.com",
   "authorEmail": "me@lamroger.com",
   "authorHandle": "@lamroger",
