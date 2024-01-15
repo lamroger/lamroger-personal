@@ -1,11 +1,6 @@
 {
   "items": [
     {
-      "text": "Home",
-      "url": "/",
-      "external": false
-    },
-    {
       "text": "GitHub",
       "url": "https://github.com/lamroger",
       "external": true
@@ -19,6 +14,11 @@
       "text": "Twitter",
       "url": "https://twitter.com/lamroger",
       "external": true
+    },
+    {
+      "text": "Resume",
+      "url": "/files/roger_lam_resume.pdf",
+      "external": false
     }
   ]
 }
