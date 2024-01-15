@@ -12,4 +12,4 @@ I'm currently open to opportunities in the ML / AI space.
 
 In my spare time, I contribute to [PyTorch](https://github.com/pytorch/pytorch/) and write about what I'm learning to share with and inspire others.
 
-I'm also participating in [Recurse Center](https://www.recurse.com/) (W2'24) and an [UCLA](https://www.ucla.edu/) graduate.
+I'm also participating in [Recurse Center](https://www.recurse.com/) (W2'24) and a [UCLA](https://www.ucla.edu/) graduate.
