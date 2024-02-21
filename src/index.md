@@ -8,8 +8,8 @@ socialImage: ''
 ---
 My name is Roger, a software engineer based in Los Angeles.
 
+In my spare time, I contribute to [PyTorch](https://github.com/pytorch/pytorch/) and write about what I'm learning to share and inspire others.
+
+I'm also teaching DATA4800: Generative AI at John Carroll University and am an alumni of UCLA and the [Recurse Center](https://www.recurse.com/) (W2'24).
+
 I'm currently open to opportunities in the ML / AI space.
-
-In my spare time, I contribute to [PyTorch](https://github.com/pytorch/pytorch/) and write about what I'm learning to share with and inspire others.
-
-I'm also participating in [Recurse Center](https://www.recurse.com/) (W2'24) and a UCLA graduate.
