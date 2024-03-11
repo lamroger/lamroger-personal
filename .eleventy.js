@@ -1,5 +1,6 @@
 const rssPlugin = require('@11ty/eleventy-plugin-rss');
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
+const embedYouTube = require("eleventy-plugin-youtube-embed");
 
 // Import filters
 const dateFilter = require('./src/filters/date-filter.js');
@@ -54,6 +55,7 @@ module.exports = function (config) {
   // Plugins
   config.addPlugin(rssPlugin);
   config.addPlugin(syntaxHighlight);
+  config.addPlugin(embedYouTube);
 
   return {
     dir: {
