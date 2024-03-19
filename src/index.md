@@ -12,4 +12,4 @@ In my spare time, I contribute to (or at least try to contribute to) [PyTorch](h
 
 I'm also teaching DATA4800: Generative AI at John Carroll University and am an alumni of UCLA and the [Recurse Center](https://www.recurse.com/).
 
-With a north star of combining math and conputer science for social good.
+With a north star of combining math and computer science for social good.
