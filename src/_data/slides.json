@@ -8,7 +8,7 @@
     "id": 2
   },
   {
-    "name": "DATA4800: Project Management",
+    "name": "Project Management Sparknotes",
     "id": 3
   },
   {
@@ -26,5 +26,9 @@
   {
     "name": "Sora Explained, kinda",
     "id": 7
+  },
+  {
+    "name": "Computer Vision Overview Apr 2024",
+    "id": 8
   }
 ]
