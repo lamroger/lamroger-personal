@@ -42,5 +42,13 @@
   {
     "name": "Testing OpenELM",
     "id": 11
+  },
+  {
+    "name": "Apple Foundation Models",
+    "id": 12
+  },
+  {
+    "name": "Ferret-UI: A peek into Apple's multimodal mobile LLMs",
+    "id": 13
   }
 ]
