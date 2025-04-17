@@ -50,5 +50,17 @@
   {
     "name": "Ferret-UI: A peek into Apple's multimodal mobile LLMs",
     "id": 13
+  },
+  {
+    "name": "Digesting 'COCONUT: Training LLMs to Reason in a Continuous Latent Space'",
+    "id": 14
+  },
+  {
+    "name": "OpenAI o1 and o3",
+    "id": 15
+  },
+  {
+    "name": "MCP: Model Context Protocol",
+    "id": 16
   }
 ]
