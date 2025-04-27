@@ -1,207 +1,117 @@
-# A simple starter kit for Eleventy
+# eleventy-base-blog v9
 
-Hylia is a lightweight [Eleventy](https://11ty.io) starter kit with [Netlify CMS](https://www.netlifycms.org/) pre-configured, so that you can one-click install a progressive, accessible blog in minutes. It also gives you a well organised starting point to extend it for yourself.
+A starter repository showing how to build a blog with the [Eleventy](https://www.11ty.dev/) site generator (using the [v3.0 release](https://github.com/11ty/eleventy/releases/tag/v3.0.0)).
 
-Get started now by **[deploying Hylia to Netlify.][deploy-to-netlify]**
+## Getting Started
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)][deploy-to-netlify]
+* [Want a more generic/detailed getting started guide?](https://www.11ty.dev/docs/getting-started/)
 
-<img src="https://hankchizljaw.imgix.net/hylia-github.jpg?auto=format&q=60" width="550" />
+1. Make a directory and navigate to it:
+
+```
+mkdir my-blog-name
+cd my-blog-name
+```
+
+2. Clone this Repository
+
+```
+git clone https://github.com/11ty/eleventy-base-blog.git .
+```
+
+_Optional:_ Review `eleventy.config.js` and `_data/metadata.js` to configure the site’s options and data.
+
+3. Install dependencies
+
+```
+npm install
+```
+
+4. Run Eleventy
+
+Generate a production-ready build to the `_site` folder:
+
+```
+npx @11ty/eleventy
+```
+
+Or build and host on a local development server:
+
+```
+npx @11ty/eleventy --serve
+```
+
+Or you can run [debug mode](https://www.11ty.dev/docs/debugging/) to see all the internals.
 
 ## Features
 
-Hylia version 0.4.2 features:
-
-✍️ A pre-configured [Netlify CMS](https://www.netlifycms.org/) setup  
-🎨 Customisable design tokens to make it your own  
-🌍 Customisable global data and navigation  
-📂 Tags and tag archives  
-✅ Progressively enhanced, semantic and accessible  
-🎈 _Super_ lightweight front-end  
-🚰 Sass powered CSS system with utility class generator  
-⚙️ Service worker that caches pages so people can read your articles offline  
-🚀 An RSS feed for your posts
-
-## Roadmap
-
-💬 [Netlify Forms](https://www.netlify.com/docs/form-handling/) powered comments  
-💡 ~~Dark/Light mode toggle~~ [Added in 0.4.0](https://github.com/andybelldesign/hylia/releases/tag/0.4.0)  
-🗣 Webmentions  
-📖 Pagination  
-🐦 Web sharing API integration  
-🗒 Offline mode with links to cached pages  
-📄 Documentation site  
-💅 Proper Sass documentation  
-✍️ Proper CMS documentation  
-🖼 A facility for you to be able to add your logo / branding
-
----
-
-## Getting started
-
-### Method one: One-Click Deploy to Netlify
-
-You can [deploy Hylia to Netlify with one click][deploy-to-netlify] and you’ll be up and running in minutes!
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)][deploy-to-netlify]
-
-I recorded a quick start video of me deploying Hylia to Netlify and getting the CMS set up. [Check it out here](https://youtu.be/0hM_0BH-Y_A).
-
-### Method two: Clone / Fork
-
-1. Clone or fork this repo: `git clone https://github.com/andybelldesign/hylia`
-2. `cd` into the project directory and run `npm install`
-3. Once all the dependencies are installed run `npm start`
-4. Open your browser at `http://localhost:8080` and away you go!
-
-## Terminal commands
-
-### Serve the site locally
-
-```bash
-npm start
-```
-
-### Build a production version of the site
-
-```bash
-npm run production
-```
-
-### Compile Sass
-
-```bash
-npm run sass:process
-```
-
-### Re-generate design tokens for Sass
-
-```bash
-npm run sass:tokens
-```
-
-## Getting started with the CMS
-
-Before you can use the CMS, you need to do some config in Netlify. Luckily they provide a [very handy guide to get started](https://www.netlify.com/docs/identity/).
-
-In short, though:
-
-- Once you’ve set up the site on Netlify, go to “Settings” > “Identity” and enable Identity
-- Scroll down to the “Git Gateway” area, click “Enable Git Gateway” and follow the steps
-- Click the “Identity” tab at the top
-- Once you’ve enabled identity, click “Invite Users”
-- Check the invite link in your inbox and click the link in the email that’s sent to you
-- Set a password in the popup box
-- Go to `/admin` on your site and login
-- You’re in and ready to edit your content!
-
-## Design Tokens and Styleguide
-
-### Design Tokens
-
-Although Hylia has a pretty simple design, you can configure the core design tokens that control the colours, size ratio and fonts.
-
----
-
-**Note**: _Credit must be given to the hard work [Jina Anne](https://twitter.com/jina) did in order for the concept of design tokens to even exist. You should watch [this video](https://www.youtube.com/watch?v=wDBEc3dJJV8), then [read this article](https://the-pastry-box-project.net/jina-bolton/2015-march-28) and then sign up for [this course](https://aycl.uie.com/virtual_seminars/design_tokens_scaling_design_with_a_single_source_of_truth) to expand your knowledge._
-
----
-
-To change the design tokens in the CMS, find the “Globals” in the sidebar then in the presented options, select “Theme Settings”.
-
-To change the design tokens directly, edit [`_src/data/tokens.json`](https://github.com/andybelldesign/hylia/blob/master/src/_data/tokens.json).
-
-The tokens are converted into maps that the Sass uses to compile the front-end CSS, so make sure that you maintain the correct structure of `tokens.json`.
-
-### Styleguide
-
-Your version of Hylia ships with a Styleguide by default. You can see a demo of the Styleguide at <https://hylia.website/styleguide/>.
-
-You can edit the Styleguide by opening [`src/styleguide.njk`](https://github.com/andybelldesign/hylia/blob/master/src/styleguide.njk). If you don’t want the Styleguide, delete that file and the page will vanish.
-
-## Sass
-
-Hylia is based on the [WIP v2 version of Stalfos](https://github.com/andybelldesign/stalfos/tree/feature/v2), which currently has no documentation (I know, I’m bad). Here is some very basic documentation for elements of the new framework that you will encounter on this project.
-
-### Configuration
-
-The whole Sass system is powered by central config file, which lives here: [`_src/scss/_config.scss`](https://github.com/andybelldesign/hylia/blob/master/src/scss/_config.scss).
-
-Before Sass is compiled, a `_tokens.scss` file is generated from the [design tokens config](https://github.com/andybelldesign/hylia/blob/master/src/_data/tokens.json) which is required.
-
-Key elements:
-
-- `$stalfos-size-scale`: A token driven size scale which by default, is a “Major Third” scale
-- `$stalfos-colors`: A token driven map of colours
-- `$stalfos-util-prefix`: All pre-built, framework utilities will have this prefix. Example: the wrapper utility is '.sf-wrapper' because the default prefix is 'sf-'
-- `$metrics`: Various misc metrics to use around the site
-- `$stalfos-config`: This powers everything from utility class generation to breakpoints to enabling/disabling pre-built components/utilities
-
-### How to create a new utility class with the generator
-
-The utility class generator lets you generate whatever you want, with no opinions on class name or properties affected.
-
-To add a new class, add another item to the exists `$stalfos-config` map. This example adds a utility for floating elements.
-
-```scss
-'float':('items':('left':'left','right': 'right'
-  ),
-  'output': 'responsive',
-  'property': 'float'
-);
-```
-
-The `output` is set to `responsive` which means every breakpoint will generate a prefixed class for itself. If you only wanted elements to float left in the `md` breakpoint, you’d now be able to add a class of `md:float-left` to your HTML elements.
-
-If you only want standard utility classes generating, set the `output` to `standard`.
-
-### Functions
-
-#### `get-color($key)`
-
-Function tries to match the passed `$key` with the `$stalfos-colors` map. Returns null if it can’t find a match.
-
-#### `get-config-value($key, $group)`
-
-Returns back a 1 dimensional (key value pair) config value if available.
-
-#### `get-size($ratio-key)`
-
-Function tries to match the passed `$ratio-key` with the `$stalfos-size-scale`. Returns null if it can’t find a match.
-
-### Mixins
-
-#### `apply-utility($key, $value-key)`
-
-Grabs the property and value of one of the `$stalfos-config utilities` that the generator will generate a class for.
-
-#### `media-query($key)`
-
-Pass in the key of one of your breakpoints set in `$stalfos-config['breakpoints']` and this mixin will generate the `@media` query with your configured value.
-
-## CMS
-
-Hylia has [Netlify CMS](https://www.netlifycms.org/) pre-configured as standard. You can customise the configuration by editing [`src/admin/config.yml`](https://github.com/andybelldesign/hylia/blob/master/src/admin/config.yml).
-
-### Content that you can edit
-
-The basic CMS setup allows you to edit the following:
-
-- **Home page**: Edit the content on your homepage
-- **Posts**: Create and edit blog posts
-- **Generic pages**: Create generic pages that use a similar layout to posts
-- **Global site data**: Various bits of global site data such as your url, title, posts per page and author details
-- **Navigation**: Edit your primary navigation items
-- **Theme**: Edit the design tokens that power the site’s theme
-
-## Get involved
-
-This project is _super_ early and feedback is very much welcome. In order to keep things running smooth, please consult the [contribution guide and code of conduct](https://github.com/andybelldesign/hylia/blob/master/contributing.md).
-
-The stuff that I need the most help with is:
-
-- Documentation
-- [Webmentions](https://www.w3.org/TR/webmention/)
-- Performance
-
-[deploy-to-netlify]: https://app.netlify.com/start/deploy?repository=https://github.com/andybelldesign/hylia&stack=cms
+- Using [Eleventy v3](https://github.com/11ty/eleventy/releases/tag/v3.0.0) with zero-JavaScript output.
+	- Content is exclusively pre-rendered (this is a static site).
+	- Can easily [deploy to a subfolder without changing any content](https://www.11ty.dev/docs/plugins/html-base/)
+	- All URLs are decoupled from the content’s location on the file system.
+	- Configure templates via the [Eleventy Data Cascade](https://www.11ty.dev/docs/data-cascade/)
+- **Performance focused**: four-hundos Lighthouse score out of the box!
+	- _0 Cumulative Layout Shift_
+	- _0ms Total Blocking Time_
+- Local development live reload provided by [Eleventy Dev Server](https://www.11ty.dev/docs/dev-server/).
+- Content-driven [navigation menu](https://www.11ty.dev/docs/plugins/navigation/)
+- Fully automated [Image optimization](https://www.11ty.dev/docs/plugins/image/)
+	- Zero-JavaScript output.
+	- Support for modern image formats automatically (e.g. AVIF and WebP)
+	- Processes images on-request during `--serve` for speedy local builds.
+	- Prefers `<img>` markup if possible (single image format) but switches automatically to `<picture>` for multiple image formats.
+	- Automated `<picture>` syntax markup with `srcset` and optional `sizes`
+	- Includes `width`/`height` attributes to avoid [content layout shift](https://web.dev/cls/).
+	- Includes `loading="lazy"` for native lazy loading without JavaScript.
+	- Includes [`decoding="async"`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/decoding)
+	- Images can be co-located with blog post files.
+- Per page CSS bundles [via `eleventy-plugin-bundle`](https://github.com/11ty/eleventy-plugin-bundle).
+- Built-in [syntax highlighter](https://www.11ty.dev/docs/plugins/syntaxhighlight/) (zero-JavaScript output).
+- Draft content: use `draft: true` to mark any template as a draft. Drafts are **only** included during `--serve`/`--watch` and are excluded from full builds. This is driven by the `addPreprocessor` configuration API in `eleventy.config.js`. Schema validator will show an error if non-boolean value is set in data cascade.
+- Blog Posts
+	- Automated next/previous links
+	- Accessible deep links to headings
+- Generated Pages
+	- Home, Archive, and About pages.
+	- [Atom feed included (with easy one-line swap to use RSS or JSON](https://www.11ty.dev/docs/plugins/rss/)
+	- `sitemap.xml`
+	- Zero-maintenance tag pages ([View on the Demo](https://eleventy-base-blog.netlify.app/tags/))
+	- Content not found (404) page
+
+## Demos
+
+- [Netlify](https://eleventy-base-blog.netlify.app/)
+- [Vercel](https://demo-base-blog.11ty.dev/)
+- [Cloudflare Pages](https://eleventy-base-blog-d2a.pages.dev/)
+- [Remix on Glitch](https://glitch.com/~11ty-eleventy-base-blog)
+- [GitHub Pages](https://11ty.github.io/eleventy-base-blog/)
+
+## Deploy this to your own site
+
+Deploy this Eleventy site in just a few clicks on these services:
+
+- Read more about [Deploying an Eleventy project](https://www.11ty.dev/docs/deployment/) to the web.
+- [Deploy this to **Netlify**](https://app.netlify.com/start/deploy?repository=https://github.com/11ty/eleventy-base-blog)
+- [Deploy this to **Vercel**](https://vercel.com/import/project?template=11ty%2Feleventy-base-blog)
+- Look in `.github/workflows/gh-pages.yml.sample` for information on [Deploying to **GitHub Pages**](https://www.11ty.dev/docs/deployment/#deploy-an-eleventy-project-to-git-hub-pages).
+- [Try it out on **Stackblitz**](https://stackblitz.com/github/11ty/eleventy-base-blog)
+
+### Implementation Notes
+
+- `content/about/index.md` is an example of a content page.
+- `content/blog/` has the blog posts but really they can live in any directory. They need only the `posts` tag to be included in the blog posts [collection](https://www.11ty.dev/docs/collections/).
+- Use the `eleventyNavigation` key (via the [Eleventy Navigation plugin](https://www.11ty.dev/docs/plugins/navigation/)) in your front matter to add a template to the top level site navigation. This is in use on `content/index.njk` and `content/about/index.md`.
+- Content can be in _any template format_ (blog posts needn’t exclusively be markdown, for example). Configure your project’s supported templates in `eleventy.config.js` -> `templateFormats`.
+- The `public` folder in your input directory will be copied to the output folder (via `addPassthroughCopy` in the `eleventy.config.js` file). This means `./public/css/*` will live at `./_site/css/*` after your build completes.
+- This project uses three [Eleventy Layouts](https://www.11ty.dev/docs/layouts/):
+	- `_includes/layouts/base.njk`: the top level HTML structure
+	- `_includes/layouts/home.njk`: the home page template (wrapped into `base.njk`)
+	- `_includes/layouts/post.njk`: the blog post template (wrapped into `base.njk`)
+- `_includes/postslist.njk` is a Nunjucks include and is a reusable component used to display a list of all the posts. `content/index.njk` has an example of how to use it.
+
+#### Content Security Policy
+
+If your site enforces a [Content Security Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP) (as public-facing sites should), you have a few choices (pick one):
+
+1. In `base.njk`, remove `<style>{% getBundle "css" %}</style>` and uncomment `<link rel="stylesheet" href="{% getBundleFileUrl "css" %}">`
+2. Configure the server with the CSP directive `style-src: 'unsafe-inline'` (less secure).

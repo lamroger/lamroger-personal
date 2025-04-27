@@ -1,0 +1,10 @@
+---js
+const eleventyNavigation = {
+	key: "Slides",
+	order: 3
+};
+---
+<h1>Slides</h1>
+
+{% set slidesList = slides.slides %}
+{% include "slideslist.njk" %}

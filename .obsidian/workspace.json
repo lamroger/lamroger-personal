@@ -11,14 +11,10 @@
             "id": "d57a24e9077b5863",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/posts/2025-04-19-on-communication.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2025-04-19-on-communication"
+              "title": "New tab"
             }
           }
         ]
@@ -94,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/posts/2025-04-19-on-communication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2025-04-19-on-communication"
+              "title": "Backlinks"
             }
           },
           {
@@ -113,12 +108,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/posts/2025-04-19-on-communication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2025-04-19-on-communication"
+              "title": "Outgoing links"
             }
           },
           {
@@ -142,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/posts/2025-04-19-on-communication.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-04-19-on-communication"
+              "title": "Outline"
             }
           }
         ]
@@ -170,12 +163,47 @@
   },
   "active": "d57a24e9077b5863",
   "lastOpenFiles": [
-    "src/posts/2024-05-24-on-small-language-models.md",
-    "src/posts/2025-04-19-on-communication.md",
-    "src/posts/2024-03-18-personal-website.md",
-    "src/posts/2024-03-18-personal-website copy.md",
+    "node_modules/@emnapi/runtime/dist/emnapi.iife.js",
+    "node_modules/@emnapi/runtime/dist/emnapi.mjs",
+    "node_modules/@emnapi/runtime/dist/emnapi.min.mjs",
+    "node_modules/@emnapi/runtime/dist/emnapi.min.js",
+    "node_modules/@emnapi/runtime/dist/emnapi.min.d.mts",
+    "node_modules/@emnapi/runtime/dist/emnapi.js",
+    "node_modules/@emnapi/runtime/dist/emnapi.iife.d.ts",
+    "node_modules/@emnapi/runtime/dist/emnapi.esm-bundler.js",
+    "node_modules/@emnapi/runtime/dist/emnapi.d.ts",
+    "node_modules/@emnapi/runtime/dist/emnapi.d.mts",
+    "node_modules/@emnapi/runtime/dist/emnapi.cjs.min.js",
+    "node_modules/@11ty/eleventy-plugin-syntaxhighlight/test/issue-80/index.md",
+    "node_modules/readdirp/node_modules/picomatch/README.md",
+    "node_modules/readdirp/node_modules/picomatch/CHANGELOG.md",
+    "node_modules/nunjucks/node_modules/commander/Readme.md",
+    "node_modules/nunjucks/node_modules/commander/CHANGELOG.md",
+    "node_modules/markdown-it/node_modules/entities/readme.md",
+    "node_modules/htmlparser2/node_modules/entities/readme.md",
+    "node_modules/gray-matter/node_modules/js-yaml/README.md",
+    "node_modules/gray-matter/node_modules/js-yaml/CHANGELOG.md",
+    "node_modules/gray-matter/node_modules/argparse/README.md",
+    "node_modules/gray-matter/node_modules/argparse/CHANGELOG.md",
+    "node_modules/finalhandler/node_modules/ms/readme.md",
+    "node_modules/finalhandler/node_modules/ms/license.md",
+    "node_modules/finalhandler/node_modules/debug/README.md",
+    "node_modules/finalhandler/node_modules/debug/CHANGELOG.md",
+    "node_modules/dom-serializer/node_modules/entities/readme.md",
+    "node_modules/anymatch/node_modules/picomatch/CHANGELOG.md",
+    "node_modules/anymatch/node_modules/picomatch/README.md",
+    "node_modules/@11ty/eleventy-plugin-syntaxhighlight/demo/test-markdown.md",
+    "node_modules/@11ty/eleventy-navigation/sample/no-nav.md",
+    "node_modules/@11ty/eleventy-navigation/sample/no-key.md",
+    "node_modules/@11ty/eleventy-navigation/sample/mammals.md",
+    "node_modules/@11ty/eleventy-navigation/sample/humans.md",
+    "node_modules/@11ty/eleventy-navigation/sample/bats.md",
+    "node_modules/morphdom/docs/old-benchmark.md",
+    "content/blog/2024-05-24-on-small-language-models/instruct_270m.png",
+    "content/blog/2024-05-24-on-small-language-models/completion_270m.png",
+    "content/blog/2024-03-13-python-versioning/versions.png",
+    "content/blog/2024-03-13-python-versioning/python_versions.png",
     "Untitled 1.canvas",
-    "Untitled.canvas",
-    "src/index.md"
+    "Untitled.canvas"
   ]
 }

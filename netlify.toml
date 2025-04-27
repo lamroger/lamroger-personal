@@ -1,7 +1,3 @@
 [build]
-  command = "npm run production"
-  publish = "dist"
-
-[[redirects]]
-  from = "https://lamroger.com/*"
-  to = "https://www.lamroger.com/:splat"
+	publish = "_site"
+	command = "npm run build"

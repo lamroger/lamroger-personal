@@ -1,0 +1,84 @@
+{
+  "slides": [
+    {
+      "name": "Transformers Explained, really",
+      "id": 1,
+      "date": "2024-01-07"
+    },
+    {
+      "name": "Direct Preference Optimization Explained, really",
+      "id": 2,
+      "date": "2024-01-19"
+    },
+    {
+      "name": "Project Management Sparknotes",
+      "id": 3,
+      "date": "2024-02-22"
+    },
+    {
+      "name": "Neural Networks Explained, really",
+      "id": 4,
+      "date": "2024-02-22"
+    },
+    {
+      "name": "Gradient Descent Explained, really",
+      "id": 5,
+      "date": "2024-03-18"
+    },
+    {
+      "name": "Stable Diffusion Explained, really",
+      "id": 6,
+      "date": "2024-04-02"
+    },
+    {
+      "name": "Sora Explained, kinda",
+      "id": 7,
+      "date": "2024-04-09"
+    },
+    {
+      "name": "Text-to-audio Recap Apr 2024",
+      "id": 8,
+      "date": "2024-04-17"
+    },
+    {
+      "name": "Computer Vision Overview Apr 2024",
+      "id": 9,
+      "date": "2024-04-29"
+    },
+    {
+      "name": "NeRF Explained, really",
+      "id": 10,
+      "date": "2024-04-23"
+    },
+    {
+      "name": "Testing OpenELM",
+      "id": 11,
+      "date": "2024-05-27"
+    },
+    {
+      "name": "Apple Foundation Models",
+      "id": 12,
+      "date": "2024-06-16"
+    },
+    {
+      "name": "Ferret-UI: A peek into Apple's multimodal mobile LLMs",
+      "id": 13,
+      "date": "2024-06-18"
+    },
+    {
+      "name": "Digesting 'COCONUT: Training LLMs to Reason in a Continuous Latent Space'",
+      "id": 14,
+      "date": "2024-12-22"
+    },
+    {
+      "name": "OpenAI o1 and o3",
+      "id": 15,
+      "date": "2025-01-12"
+    },
+    {
+      "name": "MCP: Model Context Protocol",
+      "id": 16,
+      "date": "2025-03-17"
+    }
+  ]
+}
