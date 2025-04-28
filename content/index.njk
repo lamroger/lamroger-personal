@@ -17,7 +17,7 @@ const numberOfLatestSlidesToShow = 3;
 
 {% set morePosts = postsCount - numberOfLatestPostsToShow %}
 {% if morePosts > 0 %}
-<p>{{ morePosts }} more post{% if morePosts != 1 %}s{% endif %} can be found in <a href="blog.njk">the archive</a>.</p>
+<p>{{ morePosts }} more post{% if morePosts != 1 %}s{% endif %} can be found <a href="blog.njk">here</a>.</p>
 {% endif %}
 
 {% set slidesCount = slides.slides | length %}
@@ -30,7 +30,7 @@ const numberOfLatestSlidesToShow = 3;
 
 {% set moreSlides = slidesCount - numberOfLatestSlidesToShow %}
 {% if moreSlides > 0 %}
-<p>{{ moreSlides }} more slide{% if moreSlides != 1 %}s{% endif %} can be found in <a href="slides.njk">the archive</a>.</p>
+<p>{{ moreSlides }} more slide{% if moreSlides != 1 %}s{% endif %} can be found <a href="slides.njk">here</a>.</p>
 {% endif %}
 
 
