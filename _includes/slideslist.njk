@@ -1,4 +1,4 @@
-<ol reversed class="slidelist" style="--slidelist-index: {{ (slideslistCounter or slidesList.length) + 1 }}">
+<ol reversed class="slidelist" style="--slidelist-index: {{ (slidesListCounter or slidesList.length) + 1 }}">
 {%- for slide in slidesList | reverse %}
   <li class="slidelist-item">
     <a href="/slides/{{ slide.name }}.pdf" class="slidelist-link">{{ slide.name }}</a>
