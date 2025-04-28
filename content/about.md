@@ -6,7 +6,7 @@ const eleventyNavigation = {
 ---
 # About
 
-My name is Roger, a software engineer based in Los Angeles.
+My name is Roger, a [software engineer](https://www.linkedin.com/in/lam-roger/) based in Los Angeles.
 
 I'm learning the ins and outs of ML/AI and sharing along the way.
 
