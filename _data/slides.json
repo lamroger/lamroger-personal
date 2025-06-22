@@ -79,6 +79,11 @@
       "name": "MCP: Model Context Protocol",
       "id": 16,
       "date": "2025-03-17"
+    },
+    {
+      "name": "Apple Foundation Models is out (in beta)",
+      "id": 17,
+      "date": "2025-06-21"
     }
   ]
 }
