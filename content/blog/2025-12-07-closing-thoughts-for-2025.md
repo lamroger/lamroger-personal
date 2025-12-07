@@ -70,4 +70,4 @@ How to become expert at thing:
 3 only compare yourself to younger you, never to others
 ```
 
-So keep learning, but keep building.
+So keep learning and keep building.
