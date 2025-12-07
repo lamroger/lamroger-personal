@@ -1,6 +1,6 @@
 ---
 title: 'Closing Thoughts for 2025'
-date: '2025-12-06'
+date: '2025-12-07'
 tags:
   - ai
   - software engineering
