@@ -83,6 +83,17 @@ Completed and printed a pretty table.
 
 ![Table Complete](./table-complete.png)
 
-So give it a shot! Be one of the first to order coffee through an agent! 
+### Session Costs
+
+Dio from the Latent Space Discord mentioned wanting an MCP server to not spend tokens on ordering coffee which is super valid.
+
+That did make me look into current session and I was very suprised by the cost. 
+
+![Session Cost](./session-cost.png)
+
+$2.37 on Opus 4.8 and $0.08 on Haiku 4.5. I'm on the $20/month plan so I wasn't billed for usage.
+With that said, the Pro plan is really carrying its weight.
+
+So if you have a Pro plan or have some credit to experiment, give it a shot! Be one of the first to order coffee through an agent! 
 
 If you run into any issues, feel free to drop an email at [roger@tinywaffle.co](mailto:roger@tinywaffle.co)!
